@@ -11,6 +11,7 @@ Para instalar localmente em modo de desenvolvimento:
 
 ```bash
 pip install -e .
+```
 
 ## Requisitos
 - Python 3.8+
