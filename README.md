@@ -7,10 +7,10 @@ Esta é uma biblioteca educacional em Python com implementações dos algoritmos
 
 ## Instalação
 
-Para instalar faça:
+Para instalar em um notebook faça:
 
 ```bash
-pip install git+https://github.com/Sofia-0812/bibliotecaArvoresDeDecisao.git
+!pip install --no-cache-dir git+https://github.com/Sofia-0812/bibliotecaArvoresDeDecisao.git
 ```
 
 ## Requisitos
