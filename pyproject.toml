@@ -1,0 +1,16 @@
+﻿[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mytrees"
+version = "0.1.0"
+description = "Implementações de árvores de decisão (ID3, C4.5, CART) para uso em notebooks e projetos."
+authors = [{name="Sofia Grossi"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "graphviz"
+]
