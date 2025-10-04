@@ -10,7 +10,7 @@ authors = [{name="Sofia Grossi"}]
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "numpy",
-    "pandas",
-    "graphviz"
+  "numpy",
+  "pandas",
+  "graphviz"
 ]
