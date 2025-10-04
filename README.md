@@ -29,4 +29,5 @@ from mytrees import CARTDecisionTreeClassifier
 clf = CARTDecisionTreeClassifier(max_depth=5)
 clf.fit(X_train, y_train)
 preds = clf.predict(X_test)
+clf.plot_tree()
 ```
