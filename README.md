@@ -18,3 +18,15 @@ pip install git+https://github.com/Sofia-0812/bibliotecaArvoresDeDecisao.git
 - numpy
 - pandas
 - graphviz
+
+## Utilização
+```bash
+from mytrees import ID3DecisionTreeClassifier
+from mytrees import C45DecisionTreeClassifier
+from mytrees import CARTDecisionTreeClassifier
+
+# Exemplo CART
+clf = CARTDecisionTreeClassifier(max_depth=5)
+clf.fit(X_train, y_train)
+preds = clf.predict(X_test)
+```
